@@ -309,7 +309,7 @@ const App = () => {
           <div className="w-full max-w-md pt-12 border-t border-slate-100 flex flex-col items-center gap-4">
             <div className="flex items-center gap-3 text-slate-700 font-bold text-xl">
               <User className="text-emerald-500" />
-              <span>Игиталиев Шохрухбек Тохтасин угли</span>
+              <span>Йигиталиев Шохрухбек</span>
             </div>
             <div className="flex items-center gap-3 text-slate-500 font-medium">
               <GraduationCap className="text-slate-400" />
