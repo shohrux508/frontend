@@ -305,6 +305,16 @@ const App = () => {
             <h2 className="text-4xl font-bold text-slate-800 mb-4">Проект завершен</h2>
             <p className="text-slate-500 text-lg">Готов ответить на ваши вопросы</p>
           </div>
+
+          <a 
+            href={import.meta.env.VITE_URL} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-8 py-4 bg-emerald-500 text-white rounded-2xl font-bold text-lg shadow-lg hover:bg-emerald-600 hover:scale-105 transition-all active:scale-95"
+          >
+            <Info size={24} />
+            ССЫЛКА НА ПРОЕКТ
+          </a>
           
           <div className="w-full max-w-md pt-12 border-t border-slate-100 flex flex-col items-center gap-4">
             <div className="flex items-center gap-3 text-slate-700 font-bold text-xl">
